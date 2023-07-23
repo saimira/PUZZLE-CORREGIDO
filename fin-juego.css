@@ -1,0 +1,46 @@
+
+
+#contenedor {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+ @font-face {
+  font-family: 'fuente1';
+  src: url('fuente/Pinky Style.ttf') format('truetype');
+}
+
+h1 {
+  font-family: 'fuente1', Arial, sans-serif;
+  font-size: 80px;
+}
+h2 {
+       font-family: 'fuente2', Arial, sans-serif;
+       font-size: 24pt;
+       text-align: center;
+}
+/*
+@font-face {
+  font-family: 'fuente2';
+  src: url('fuente/Anime.otf') format('opentype');
+}
+*/
+
+
+ @font-face {
+  font-family: 'fuente2';
+  src: url('fuente/Letters for Learners Dots.ttf') format('truetype');
+}
+#timeDisplay {
+	background-color: skyblue;
+	padding: 10px;
+	display: block;
+	width: 300px; 
+	border-radius: 10px;
+	border: 4px solid blue; 
+	padding: 10px;
+	text-align: center;
+
+}

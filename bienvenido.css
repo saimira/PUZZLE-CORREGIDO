@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #1a0321;
+  font-family: consolas;
+  font-size: 25px;
+
+
+}
+.inicio{
+  text-align: center;
+  color: white;
+}
+#h2 {
+font-size: 27px;
+}
+#neon3 {
+  margin: 0;
+  font-size: 35px;
+  text-shadow: 0 0 5px white, 0 0 15px white, 0 0 30px white, 0 0 50px white;
+
+}
+.flicker1 {
+  animation: parpadear 2s infinite backwards steps(3);
+}
+.flicker2 {
+  animation: parpadear 2.5s infinite backwards steps(4);
+}
+.flicker3 {
+  animation: parpadear 1.5s infinite backwards steps(2);
+}
+@keyframes parpadear {
+  to {
+    color: gray;
+    text-shadow: none;
+  }
+}

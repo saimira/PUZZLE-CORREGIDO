@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HTML5 Puzzle Action</title>
+    <link rel="stylesheet" href="puzzle-action.css">
+    
+</head>
+<body>
+
+    
+    <div id="contenedor-superior-general">
+        <div class="item" id="cont-encabe">
+            <div id="cont-superior-1">
+            </div>
+            <div id="cont-titulo">
+                <!--<h1>Seleccione una imagen</h1>-->
+            </div>
+            <div id="cont-logo">
+                <img src="img/logo.png" alt="Descripción de la imagen" width="100px">
+            </div>
+        </div>
+    </div>
+    <div id="contenedor">
+        <div id="cont1">
+            <div id="pausa">
+                <script src="pausa.js"></script>
+            </div>
+            <section id="puzzle">
+
+              <canvas id="canvas"></canvas>
+            </section>
+        </div>
+
+        <div id="cont2">
+            <section id="botones">
+                <button id="startButton">Iniciar</button>
+                <button id="pauseButton">Pausa</button>
+                <button id="restartButton">Reiniciar</button>
+
+            </section>
+            
+            <section id="cronometro">
+                <div id="timer">00:00</div>
+            </section>
+            
+        </div>
+        
+
+    </div>
+    
+    <div id="pauseMessageContainer"></div>
+    <script src="puzzle-action.js"></script>
+   
+    
+
+  
+</body>
+</html>

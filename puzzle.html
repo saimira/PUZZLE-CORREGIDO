@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Puzzle</title>
+    <link rel="stylesheet" href="puzzle.css">
+    <script src="superior.js"></script>
+</head>
+<body>
+    <div id="contenedor-superior-general">
+        <div class="item" id="cont-encabe">
+            <div id="cont-superior-1">
+            </div>
+            <div id="cont-titulo">
+                <!--<h1>Seleccione una imagen</h1>-->
+            </div>
+            <div id="cont-logo">
+                <img src="img/logo.png" alt="Descripción de la imagen" width="100px">
+            </div>
+        </div>
+    </div>
+
+    <div id="contenedor">
+        
+
+        <section id="img">
+            <div id="image-name"></div>
+
+            <img id="puzzle-image" src="" alt="Imagen del rompecabezas">
+            
+        </section>
+
+        <section id="nivel-dificultad" >
+            <label id="palabra-dificultad" for="difficulty">DIFICULTAD</label>
+            <input type="range" min="2" max="16" value="4" id="difficulty" />
+            <div id="difficulty-info">16 piezas</div>
+        </section>
+
+        <section id=button>
+            <button id="iniciar-btn">Continuar</button>
+        </section>
+    </div>
+
+    <script src="puzzle.js"></script>
+</body>
+</html>
